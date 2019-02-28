@@ -1,0 +1,35 @@
+{
+  "name": "convert-excel-rows-to-query",
+  "version": "1.0.0",
+  "description": "Covert all rows of a given excel file to sql queries",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jorcalle11/convert-excel-rows-to-query.git"
+  },
+  "keywords": [
+    "Excel",
+    "SQL"
+  ],
+  "author": "Jorge Calle @jorcalle11",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jorcalle11/convert-excel-rows-to-query/issues"
+  },
+  "homepage": "https://github.com/jorcalle11/convert-excel-rows-to-query#readme",
+  "devDependencies": {
+    "eslint": "^5.14.1",
+    "eslint-config-prettier": "^4.1.0",
+    "eslint-plugin-prettier": "^3.0.1",
+    "prettier": "^1.16.4"
+  },
+  "dependencies": {
+    "dotenv": "^6.2.0",
+    "knex": "^0.16.3",
+    "oracledb": "^3.1.2",
+    "xlsx": "^0.14.1"
+  }
+}
